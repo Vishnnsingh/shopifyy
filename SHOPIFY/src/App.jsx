@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider,Navigate } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import Login from "./Container/Login/Login";
@@ -13,6 +13,10 @@ import Contact from "./Container/Pages/Contact/Contact";
 
 function App() {
   const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Navigate to="/login" replace />, // Redirect "/" to "/login"
+    },
     {
       path: "/login",
       element: <Login />,
