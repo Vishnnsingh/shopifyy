@@ -1,0 +1,41 @@
+.homes {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #10002b, #240046);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reacts {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    max-width: 800px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .exploreBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .exploreBtn:hover {
+    background: white;
+    color: black;
+  }
+  

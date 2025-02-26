@@ -1,0 +1,10 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* align-items: center; */
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    color: red;
+  }
+  

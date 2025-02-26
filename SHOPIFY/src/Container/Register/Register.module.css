@@ -1,0 +1,128 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .registerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff7eb3, #ff0080);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .registerForm {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    animation: slideUp 0.8s ease-in-out;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: #ff0080;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .input:focus {
+    border-color: #ff0080;
+    box-shadow: 0 0 5px rgba(255, 0, 128, 0.5);
+    outline: none;
+  }
+  
+  /* Error styling */
+  .inputError {
+    border: 1px solid red;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .registerBtn {
+    background: #ff0080;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .registerBtn:hover {
+    background: #ff4da6;
+    transform: scale(1.05);
+  }
+  
+  .alreadyMember {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .alreadyMember a {
+    color: #ff0080;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .alreadyMember a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .registerForm {
+      width: 90%;
+      padding: 30px;
+    }
+  }
+  

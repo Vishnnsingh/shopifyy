@@ -1,0 +1,29 @@
+.categoryList {
+    width: 25%;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+  }
+  
+  .categoryTitle {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .categoryItem {
+    margin-bottom: 0.5rem;
+  }
+  
+  .categoryButton {
+    color: #3b82f6;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .categoryButton:hover {
+    text-decoration: underline;
+  }
+  

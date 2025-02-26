@@ -1,0 +1,111 @@
+/* Login.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .logincontainer {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .loginform {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    max-width: 50%;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .options a {
+    text-decoration: none;
+    color: #ff0080;
+  }
+  
+  .loginbtn {
+    background-color: #ff0080;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .createaccount {
+    background-color: transparent;
+    border: 2px solid #ff0080;
+    color: #ff0080;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .sociallogin {
+    color: #ff0080;
+    font-weight: bold;
+  }
+  
+  .loginimage {
+    flex: 1;
+    background: url('../../assets/login.jpeg') no-repeat center;
+    background-size: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .logincontainer {
+      flex-direction: column;
+    }
+  
+    .loginform {
+      max-width: 100%;
+      padding: 30px;
+    }
+  
+    .loginimage {
+      height: 300px;
+    }
+  }
+  
