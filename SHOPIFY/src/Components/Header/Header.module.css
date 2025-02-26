@@ -28,7 +28,10 @@
   }
   
   .navlinks li a:hover {
-    color: #c0c0c0; /* Light gray hover effect */
+    color: #8d2323; /* Light gray hover effect */
+    /* background-color: white; */
+    /* padding: 5px; */
+    /* width: 20px; */
   }
   
   /* Mobile menu */
@@ -36,8 +39,16 @@
     display: none;
     flex-direction: column;
     gap: 15px;
-    background-color: #2b2b2b;
+    background-color: #754e93;
     padding: 15px;
+    list-style: none;
+    color: white;
+  }
+
+  .ll{
+    list-style: none;
+    color: antiquewhite;
+    text-decoration: none;
   }
   
   .menuicon {

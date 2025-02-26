@@ -52,8 +52,8 @@ const Login = () => {
           {error && <p className={style.errorMessage}>{error}</p>}
 
           <div className={style.options}>
-            <label>
-              <input type="checkbox" /> Remember me
+            <label className={style.rr}>
+              <input type="checkbox" /> Remember me 
             </label>
             <a href="#">Forgot password?</a>
           </div>

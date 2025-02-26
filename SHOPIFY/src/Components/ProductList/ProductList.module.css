@@ -1,6 +1,7 @@
 .productList {
     width: 75%;
-    padding: 1rem;
+    padding: 2rem;
+    /* padding-left: 10px; */
   }
   
   .productTitle {
@@ -11,6 +12,8 @@
   
   .productItem {
     margin-bottom: 0.5rem;
+    padding-top: 20px;
+    
   }
   
   .productLink {
